@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    text-align: center;
+    align-content: center;
+}
+
+.title{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+
+.element{
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: 'Roboto', cursive;
+    border: solid;
+    max-width: 500px;
+    height: auto;
+}
+
+.base{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.food-title{
+    font-family: 'Dancing Script', cursive;
+}
