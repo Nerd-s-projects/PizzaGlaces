@@ -1,25 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Roboto:wght@300&display=swap');
+
+@font-face {
+    font-family: Gilbert;
+    src: url(Gilbert-Color\ Bold\ Preview5.otf);
+}
+
+html{
+    background-color: white;
+}
 
 body{
     text-align: center;
     align-content: center;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .title{
-    font-family: 'Dancing Script', cursive;
+    font-family: Gilbert;
     text-align: center;
+    font-size: 60px;
 }
 
 
 .element{
+    font-size: 30px;
     margin: auto;
-    border-radius: 15px;
-    padding: 10px;
-    font-family: 'Roboto', cursive;
-    border: solid;
-    max-width: 500px;
+    border-radius: 12px;
+    padding: 5px;
+    font-family: 'Dosis', sans-serif;
+    background: linear-gradient(white, white) padding-box,
+              linear-gradient(to right, #2543A5ff, #D154B0ff) border-box;
+    border-radius: 2em;
+    border: 4px solid transparent;
+    max-width: 600px;
     height: auto;
+    margin-bottom: 1em;
+    background-color: whitesmoke;
 }
 
 .base{
@@ -28,5 +46,37 @@ body{
 }
 
 .food-title{
-    font-family: 'Dancing Script', cursive;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: Gilbert;
+}
+
+li{
+    margin: 5px;
+    text-align: left;
+}
+
+img{
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+.link{
+    background: linear-gradient(white, white) padding-box,
+              linear-gradient(to right, #2543A5ff, #D154B0ff) border-box;
+    border-radius: 2em;
+    border: 4px solid transparent;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    margin: auto;
+    font-size: 20px;
+}
+
+footer{
+    font-family: 'Dosis';
+    border: 3em;
+    margin: 3em;
 }
